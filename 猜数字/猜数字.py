@@ -1,7 +1,7 @@
 import random
 
 num=random.randint(1,10)
-guess_num=int(input("在1~10中猜一个数字："))
+guess_num=int(input("在1~10中猜一个数字"))
 #三层if嵌套判断
 if guess_num==num:
     print("第一次就猜对了")
